@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import PenaltiesTable from './PenaltiesTable';
 
 const formatTime = (totalSeconds) => {
   const minutes = Math.floor(totalSeconds / 60);
@@ -352,7 +351,6 @@ const FlagFootballApp = () => {
           splitView={splitScoreView}
         />
       </div>
-      <PenaltiesTable />
     </div>
   );
 };
