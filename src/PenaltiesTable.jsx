@@ -96,18 +96,28 @@ const PenaltiesTable = () => {
                 </td>
               </tr>
             ))}
-            {filteredPenalties.length === 0 && (
-              <tr>
-                <td colSpan={6} className="text-center p-4 text-gray-500">
-                  No penalties found matching your search
-                </td>
-              </tr>
-            )}
           </tbody>
         </table>
       </div>
       <div className="mt-4 text-sm text-gray-600">
         Showing {filteredPenalties.length} of {penalties.length} penalties
+      </div>
+      <div className="mt-6 border rounded-lg">
+        <details className="p-4">
+          <summary className="font-semibold cursor-pointer">
+            What is the Basic Spot (BS)?
+          </summary>
+          <div className="mt-2 pl-4">
+            <p className="font-semibold mb-2">
+              The basic spot is the scrimmage line with the following exceptions:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>For offense fouls behind the scrimmage line, the basic spot is the spot of foul.</li>
+              <li>For defense fouls when the dead ball spot is beyond the scrimmage line, the basic spot is the dead ball spot.</li>
+              <li>For fouls after a change of team possession the basic spot will be the dead ball spot. If the foul is on the last related run from the team ending up in possession and the foul is behind the dead ball spot, the basic spot is the spot of foul.</li>
+            </ul>
+          </div>
+        </details>
       </div>
     </div>
   );
