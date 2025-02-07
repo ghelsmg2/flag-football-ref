@@ -147,7 +147,7 @@ export const penalties = [
     "Penalty Name": "Illegal Kick by Runner",
     "Yardage": "5",
     "Enforced From": "Dead Ball Spot",
-    "Loss of Down": "No",
+    "Loss of Down": "Yes",
     "Automatic First Down": "No",
     "Loss of Timeout": "No"
   },
@@ -179,7 +179,7 @@ export const penalties = [
     "Penalty Name": "Illegal Run",
     "Yardage": "5",
     "Enforced From": "Line of Scrimmage",
-    "Loss of Down": "No",
+    "Loss of Down": "Yes",
     "Automatic First Down": "No",
     "Loss of Timeout": "No"
   },
@@ -187,7 +187,7 @@ export const penalties = [
     "Penalty Name": "Illegal Run Play",
     "Yardage": "5",
     "Enforced From": "Line of Scrimmage",
-    "Loss of Down": "No",
+    "Loss of Down": "Yes",
     "Automatic First Down": "No",
     "Loss of Timeout": "No"
   },
